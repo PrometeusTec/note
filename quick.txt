@@ -64,6 +64,9 @@ $ firebase deploy
 
 GIT
 
+$ git config --global user.email "you@example.com"                                                                                                     
+$ git config --global user.name "Your Name" 
+
 $ git clone <URL.git>
 ||
 $ git remote add origin <URL.git>
@@ -78,3 +81,15 @@ $ git add *
 
 $ git commit -m "<description>"
 $ git push -u origin master
+
+====================================================================
+
+UPGRADE NODE.js VIA NPM
+
+# npm cache clean -f
+# npm install -g n
+# n stable
+
+# sudo n <version>
+
+$ node -v
