@@ -1,0 +1,80 @@
+=================================================================
+
+INSTALL ANGULAR CLI
+
+# npm install -g angular-cli
+
+------------------------------------------------------------------
+
+NEW ANGULAR 2 PROJECT
+
+$ ng new <nome do projeto>
+$ cd <nome do projeto>
+||
+$ mkdir <nome do projeto>
+$ ng init
+
+$ ng serve --host 0.0.0.0 --port 3000 --live-reload-port 49153
+|| 
+$ ng serve 
+
+------------------------------------------------------------------
+
+JAVASCRIPT LIBRARIES AND FRAMEWORDS
+
+$ npm install materialize-css --save
+$ npm install angular2-materialize --save
+$ npm install jquery@^2.2.4 --save
+
+$ npm install angularfire2 --save
+
+
+=================================================================
+
+INSTALL FIREBASE
+
+FIREBASE TOOLS
+# npm -g install firebase-tools
+$ firebase version
+||
+VIA NPM
+$ npm install firebase --save
+$ npm ls firebase
+
+-----------------------------------------------------------------
+
+QUICK START WEB APP
+
+$ firebase login --no-localhost
+|| 
+$ firebase login 
+
+$ firebase use --add
+$ firebase serve
+
+-------------------------------------------------------------------
+
+DEPLOY
+
+$ firebase login --no-localhost
+$ firebase init
+$ firebase deploy
+
+===================================================================
+
+GIT
+
+$ git clone <URL.git>
+||
+$ git remote add origin <URL.git>
+
+$ git init
+
+$ git status
+
+$ git add .
+||
+$ git add *
+
+$ git commit -m "<description>"
+$ git push -u origin master

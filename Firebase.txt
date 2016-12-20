@@ -1,0 +1,34 @@
+Firebase via npm
+17:30
+$ npm install firebase --save
+$ npm ls firebase
+
+Angularfire
+25:00
+$ npm install angularfire2 --save
+
+/////////////////////////////////////////////
+
+INSTALL FIREBASE TOOLS
+
+# npm -g install firebase-tools
+$ firebase version
+
+-----------------------------------------------------------------
+
+QUICK START WEB APP
+
+$ firebase login --no-localhost
+|| 
+$ firebase login 
+
+$ firebase use --add
+$ firebase serve
+
+-------------------------------------------------------------------
+
+DEPLOY
+
+$ firebase login --no-localhost
+$ firebase init
+$ firebase deploy

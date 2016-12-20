@@ -1,0 +1,18 @@
+===================================================================
+
+GIT
+
+$ git clone <URL.git>
+||
+$ git remote add origin <URL.git>
+
+$ git init
+
+$ git status
+
+$ git add .
+||
+$ git add *
+
+$ git commit -m "<description>"
+$ git push -u origin master
